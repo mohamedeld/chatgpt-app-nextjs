@@ -1,9 +1,13 @@
+import Chat from "@/components/Chat";
+import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h2>Welcome to Ghatgpt app</h2>
+    <main className="p-5">
+      <h1 className="text-4xl font-bold">Welcome to Ghatgpt app</h1>
+      <Separator className="my-5"/>
+      <Chat/>
     </main>
   );
 }
